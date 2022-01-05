@@ -14,8 +14,8 @@ pythoncmd="/usr/bin/python"
 ALY_KEY=`echo "$AliAccessKey"`
 ALY_TOKEN=`echo "$AliAccessKeySecret"`
 
-echo "ALY_KEY: "$ALY_KEY
-echo "ALY_TOKEN: "$ALY_TOKEN
+# echo "ALY_KEY: "$ALY_KEY
+# echo "ALY_TOKEN: "$ALY_TOKEN
 
 
 #填写腾讯云的SecretId及SecretKey
