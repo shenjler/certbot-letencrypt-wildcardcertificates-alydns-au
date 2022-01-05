@@ -223,6 +223,8 @@ if __name__ == '__main__':
     file_name, cmd, certbot_domain, acme_challenge, certbot_validation, ACCESS_KEY_ID, ACCESS_KEY_SECRET = sys.argv
 
     certbot_domain = AliDns.getDomain(certbot_domain)
+    print("=====print certbot_domain=======")
+    print(certbot_domain)
     #print (certbot_domain)
     if certbot_domain[0] == "":
             selfdomain = acme_challenge
