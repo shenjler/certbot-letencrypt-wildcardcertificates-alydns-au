@@ -11,8 +11,12 @@ pythoncmd="/usr/bin/python"
 
 #填写阿里云的AccessKey ID及AccessKey Secret
 #如何申请见https://help.aliyun.com/knowledge_detail/38738.html
-ALY_KEY=`echo $AliAccessKey`
-ALY_TOKEN=`echo $AliAccessKeySecret`
+ALY_KEY=`echo "$AliAccessKey"`
+ALY_TOKEN=`echo "$AliAccessKeySecret"`
+
+echo "ALY_KEY: "$ALY_KEY
+echo "ALY_TOKEN: "$ALY_TOKEN
+
 
 #填写腾讯云的SecretId及SecretKey
 #如何申请见https://console.cloud.tencent.com/cam/capi
